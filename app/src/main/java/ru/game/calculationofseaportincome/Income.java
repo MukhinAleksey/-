@@ -38,6 +38,7 @@ class Seaport {
         this.rent = rent;
         incomes = new ArrayList<>();
     }
+
     public void addIncome(Income income) {
         incomes.add(income);
     }
